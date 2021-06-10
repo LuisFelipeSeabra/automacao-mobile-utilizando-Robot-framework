@@ -14,7 +14,7 @@
 ## Planejamento de casos de teste
 Para o projeto de planejamento de casos de teste, criou-se o fluxo de abertura de conta da fintech Start. Foram criados 17 cenários com o objetivo de apresentar uma boa cobertura de testes do fluxo de criação de conta corrente.
 ```
-Formato: Gherkin
+Formato: Gherkin 
 ```
 
 
