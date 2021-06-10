@@ -7,8 +7,8 @@
 
 ## Documentação útil
 
-1. [Automação Mobile](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/AutomationProject)
-2. [Planejamento de Casos de Testes](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/RegresAPI)
+1. [Automação Mobile](https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/tree/master/app)
+2. [Planejamento de Casos de Testes](https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/blob/master/ContaCorrenteStar.pdf)
 
 
 ## Planejamento de casos de teste
