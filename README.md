@@ -43,6 +43,11 @@ Framework: RobotFramework
 
 
 #### Execução dos Testes
+Requirements
+```
+robotframework==4.0.3
+robotframework-appiumlibrary==1.6.1
+```
 Executar pela linha de comando: 
 ```
 cd C:\app\test
