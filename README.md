@@ -44,6 +44,7 @@ Framework: RobotFramework
 #### Execução dos Testes
 Executar [requirements](https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/blob/master/app/requirements.txt) pela linha de comando:
 ```
+cd C:\app
 pip3 install -r requirements.txt
 ```
 Executar pela linha de comando: 
@@ -51,6 +52,7 @@ Executar pela linha de comando:
 cd C:\app\test
 robot -d .logs garden.robot
 ```
+Ao final da execução será gerado um [relatório com as execuções e screenshots das telas](https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/tree/master/app/test/.logs)!
 
 
 #### Relatório de execução
