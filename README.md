@@ -43,10 +43,9 @@ Framework: RobotFramework
 
 
 #### Execução dos Testes
-Requirements
+Executar [requirements](https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/blob/master/app/requirements.txt) pela linha de comando:
 ```
-robotframework==4.0.3
-robotframework-appiumlibrary==1.6.1
+pip3 install -r requirements.txt
 ```
 Executar pela linha de comando: 
 ```
