@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.3 (Python 3.8.8 on win32)" generated="20210610 03:04:59.542" rpa="false" schemaversion="2">
+<robot generator="Robot 4.0.3 (Python 3.8.8 on win32)" generated="20210610 11:02:54.750" rpa="false" schemaversion="2">
 <suite id="s1" name="Garden" source="C:\qaninja\sunflower\app\test\garden.robot">
 <test id="s1-t1" name="Cenário 01: Adicionar fruto">
 <kw name="Open Session" library="base" type="SETUP">
 <kw name="Set Appium Timeout" library="AppiumLibrary">
 <arg>5</arg>
 <doc>Sets the timeout in seconds used by various keywords.</doc>
-<status status="PASS" starttime="20210610 03:04:59.736" endtime="20210610 03:04:59.737"/>
+<status status="PASS" starttime="20210610 11:02:54.989" endtime="20210610 11:02:54.989"/>
 </kw>
 <kw name="Open Application" library="AppiumLibrary">
 <arg>http://localhost:4723/wd/hub</arg>
@@ -20,9 +20,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<status status="PASS" starttime="20210610 03:04:59.737" endtime="20210610 03:05:09.369"/>
+<status status="PASS" starttime="20210610 11:02:54.989" endtime="20210610 11:03:07.255"/>
 </kw>
-<status status="PASS" starttime="20210610 03:04:59.736" endtime="20210610 03:05:09.369"/>
+<status status="PASS" starttime="20210610 11:02:54.988" endtime="20210610 11:03:07.256"/>
 </kw>
 <kw name="Dado que esteja na tela inicial do app sunflower" library="BDDpt-br" sourcename="Dado ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -34,14 +34,14 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>selected</arg>
 <arg>true</arg>
 <doc>Verify that an attribute of an element matches the expected criteria.</doc>
-<msg timestamp="20210610 03:05:10.003" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="My garden"]' attribute 'selected' is 'true' </msg>
-<status status="PASS" starttime="20210610 03:05:09.371" endtime="20210610 03:05:10.004"/>
+<msg timestamp="20210610 11:03:07.717" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="My garden"]' attribute 'selected' is 'true' </msg>
+<status status="PASS" starttime="20210610 11:03:07.260" endtime="20210610 11:03:07.717"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:09.371" endtime="20210610 03:05:10.004"/>
+<status status="PASS" starttime="20210610 11:03:07.259" endtime="20210610 11:03:07.717"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:09.370" endtime="20210610 03:05:10.004"/>
+<status status="PASS" starttime="20210610 11:03:07.259" endtime="20210610 11:03:07.717"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:09.370" endtime="20210610 03:05:10.004"/>
+<status status="PASS" starttime="20210610 11:03:07.258" endtime="20210610 11:03:07.717"/>
 </kw>
 <kw name="Quando clicar em add plant" library="BDDpt-br" sourcename="Quando ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -51,18 +51,18 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains" library="AppiumLibrary">
 <arg>${AddPlant}</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:10.005" endtime="20210610 03:05:10.074"/>
+<status status="PASS" starttime="20210610 11:03:07.718" endtime="20210610 11:03:07.836"/>
 </kw>
 <kw name="Click Text" library="AppiumLibrary">
 <arg>${AddPlant}</arg>
 <doc>Click text identified by ``text``.</doc>
-<status status="PASS" starttime="20210610 03:05:10.074" endtime="20210610 03:05:10.233"/>
+<status status="PASS" starttime="20210610 11:03:07.836" endtime="20210610 11:03:08.018"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:10.005" endtime="20210610 03:05:10.233"/>
+<status status="PASS" starttime="20210610 11:03:07.718" endtime="20210610 11:03:08.018"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:10.004" endtime="20210610 03:05:10.233"/>
+<status status="PASS" starttime="20210610 11:03:07.718" endtime="20210610 11:03:08.019"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:10.004" endtime="20210610 03:05:10.233"/>
+<status status="PASS" starttime="20210610 11:03:07.717" endtime="20210610 11:03:08.019"/>
 </kw>
 <kw name="E selecionar o fruto desejado" library="BDDpt-br" sourcename="E ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -74,28 +74,28 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>selected</arg>
 <arg>true</arg>
 <doc>Verify that an attribute of an element matches the expected criteria.</doc>
-<msg timestamp="20210610 03:05:11.219" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="Plant list"]' attribute 'selected' is 'true' </msg>
-<status status="PASS" starttime="20210610 03:05:10.235" endtime="20210610 03:05:11.219"/>
+<msg timestamp="20210610 11:03:09.165" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="Plant list"]' attribute 'selected' is 'true' </msg>
+<status status="PASS" starttime="20210610 11:03:08.021" endtime="20210610 11:03:09.165"/>
 </kw>
 <kw name="Escolher fruto" library="helper">
 <arg>${plantApple}</arg>
 <kw name="Wait Until Page Contains" library="AppiumLibrary">
 <arg>${target}</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:11.220" endtime="20210610 03:05:11.303"/>
+<status status="PASS" starttime="20210610 11:03:09.166" endtime="20210610 11:03:09.288"/>
 </kw>
 <kw name="Click Text" library="AppiumLibrary">
 <arg>${target}</arg>
 <doc>Click text identified by ``text``.</doc>
-<status status="PASS" starttime="20210610 03:05:11.303" endtime="20210610 03:05:11.418"/>
+<status status="PASS" starttime="20210610 11:03:09.288" endtime="20210610 11:03:09.452"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:11.219" endtime="20210610 03:05:11.418"/>
+<status status="PASS" starttime="20210610 11:03:09.166" endtime="20210610 11:03:09.452"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:10.235" endtime="20210610 03:05:11.419"/>
+<status status="PASS" starttime="20210610 11:03:08.020" endtime="20210610 11:03:09.453"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:10.235" endtime="20210610 03:05:11.419"/>
+<status status="PASS" starttime="20210610 11:03:08.020" endtime="20210610 11:03:09.453"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:10.234" endtime="20210610 03:05:11.419"/>
+<status status="PASS" starttime="20210610 11:03:08.019" endtime="20210610 11:03:09.453"/>
 </kw>
 <kw name="E clicar em add" library="BDDpt-br" sourcename="E ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -105,19 +105,19 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${IdAdd}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:11.421" endtime="20210610 03:05:12.196"/>
+<status status="PASS" starttime="20210610 11:03:09.455" endtime="20210610 11:03:09.740"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${IdAdd}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210610 03:05:12.197" level="INFO">Clicking element 'id=com.google.samples.apps.sunflower:id/fab'.</msg>
-<status status="PASS" starttime="20210610 03:05:12.196" endtime="20210610 03:05:12.264"/>
+<msg timestamp="20210610 11:03:09.745" level="INFO">Clicking element 'id=com.google.samples.apps.sunflower:id/fab'.</msg>
+<status status="PASS" starttime="20210610 11:03:09.740" endtime="20210610 11:03:10.390"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:11.421" endtime="20210610 03:05:12.264"/>
+<status status="PASS" starttime="20210610 11:03:09.454" endtime="20210610 11:03:10.390"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:11.421" endtime="20210610 03:05:12.264"/>
+<status status="PASS" starttime="20210610 11:03:09.454" endtime="20210610 11:03:10.390"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:11.420" endtime="20210610 03:05:12.264"/>
+<status status="PASS" starttime="20210610 11:03:09.453" endtime="20210610 11:03:10.390"/>
 </kw>
 <kw name="Então sistema adicionará o fruto escolhido ao Jardim" library="BDDpt-br" sourcename="Então ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -127,36 +127,41 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${PlantAdd}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:12.266" endtime="20210610 03:05:13.033"/>
+<status status="PASS" starttime="20210610 11:03:10.395" endtime="20210610 11:03:11.241"/>
 </kw>
 <kw name="Element Text Should Be" library="AppiumLibrary">
 <arg>${PlantAdd}</arg>
 <arg>Added plant to garden</arg>
 <doc>Verifies element identified by ``locator`` exactly contains text ``expected``.</doc>
-<msg timestamp="20210610 03:05:13.035" level="INFO">Verifying element 'id=com.google.samples.apps.sunflower:id/snackbar_text' contains exactly text 'Added plant to garden'.</msg>
-<status status="PASS" starttime="20210610 03:05:13.033" endtime="20210610 03:05:13.062"/>
+<msg timestamp="20210610 11:03:11.244" level="INFO">Verifying element 'id=com.google.samples.apps.sunflower:id/snackbar_text' contains exactly text 'Added plant to garden'.</msg>
+<status status="PASS" starttime="20210610 11:03:11.241" endtime="20210610 11:03:11.304"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:12.265" endtime="20210610 03:05:13.062"/>
+<status status="PASS" starttime="20210610 11:03:10.395" endtime="20210610 11:03:11.304"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:12.265" endtime="20210610 03:05:13.062"/>
+<status status="PASS" starttime="20210610 11:03:10.394" endtime="20210610 11:03:11.304"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:12.264" endtime="20210610 03:05:13.062"/>
+<status status="PASS" starttime="20210610 11:03:10.393" endtime="20210610 11:03:11.304"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20210610 11:03:11.872" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210610 11:03:11.305" endtime="20210610 11:03:11.872"/>
+</kw>
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" starttime="20210610 03:05:13.063" endtime="20210610 03:05:13.507"/>
+<status status="PASS" starttime="20210610 11:03:11.872" endtime="20210610 11:03:12.725"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:13.063" endtime="20210610 03:05:13.507"/>
+<status status="PASS" starttime="20210610 11:03:11.305" endtime="20210610 11:03:12.726"/>
 </kw>
-<status status="PASS" starttime="20210610 03:04:59.736" endtime="20210610 03:05:13.508"/>
+<status status="PASS" starttime="20210610 11:02:54.988" endtime="20210610 11:03:12.727"/>
 </test>
 <test id="s1-t2" name="Cenário 02: Adicionar lista de frutos: ['Beet', 'Avocado']">
 <kw name="Open Session" library="base" type="SETUP">
 <kw name="Set Appium Timeout" library="AppiumLibrary">
 <arg>5</arg>
 <doc>Sets the timeout in seconds used by various keywords.</doc>
-<status status="PASS" starttime="20210610 03:05:13.511" endtime="20210610 03:05:13.511"/>
+<status status="PASS" starttime="20210610 11:03:12.736" endtime="20210610 11:03:12.737"/>
 </kw>
 <kw name="Open Application" library="AppiumLibrary">
 <arg>http://localhost:4723/wd/hub</arg>
@@ -170,9 +175,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<status status="PASS" starttime="20210610 03:05:13.512" endtime="20210610 03:05:23.289"/>
+<status status="PASS" starttime="20210610 11:03:12.737" endtime="20210610 11:03:25.739"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:13.511" endtime="20210610 03:05:23.289"/>
+<status status="PASS" starttime="20210610 11:03:12.735" endtime="20210610 11:03:25.740"/>
 </kw>
 <kw name="Dado que esteja na tela inicial do app sunflower" library="BDDpt-br" sourcename="Dado ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -184,14 +189,14 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>selected</arg>
 <arg>true</arg>
 <doc>Verify that an attribute of an element matches the expected criteria.</doc>
-<msg timestamp="20210610 03:05:23.724" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="My garden"]' attribute 'selected' is 'true' </msg>
-<status status="PASS" starttime="20210610 03:05:23.291" endtime="20210610 03:05:23.724"/>
+<msg timestamp="20210610 11:03:26.501" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="My garden"]' attribute 'selected' is 'true' </msg>
+<status status="PASS" starttime="20210610 11:03:25.742" endtime="20210610 11:03:26.502"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.291" endtime="20210610 03:05:23.724"/>
+<status status="PASS" starttime="20210610 11:03:25.742" endtime="20210610 11:03:26.502"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.290" endtime="20210610 03:05:23.724"/>
+<status status="PASS" starttime="20210610 11:03:25.741" endtime="20210610 11:03:26.502"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.290" endtime="20210610 03:05:23.725"/>
+<status status="PASS" starttime="20210610 11:03:25.740" endtime="20210610 11:03:26.502"/>
 </kw>
 <kw name="Quando clicar em add plant" library="BDDpt-br" sourcename="Quando ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -201,18 +206,18 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains" library="AppiumLibrary">
 <arg>${AddPlant}</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:23.727" endtime="20210610 03:05:23.835"/>
+<status status="PASS" starttime="20210610 11:03:26.504" endtime="20210610 11:03:26.625"/>
 </kw>
 <kw name="Click Text" library="AppiumLibrary">
 <arg>${AddPlant}</arg>
 <doc>Click text identified by ``text``.</doc>
-<status status="PASS" starttime="20210610 03:05:23.835" endtime="20210610 03:05:23.969"/>
+<status status="PASS" starttime="20210610 11:03:26.625" endtime="20210610 11:03:26.802"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.726" endtime="20210610 03:05:23.969"/>
+<status status="PASS" starttime="20210610 11:03:26.503" endtime="20210610 11:03:26.802"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.726" endtime="20210610 03:05:23.969"/>
+<status status="PASS" starttime="20210610 11:03:26.503" endtime="20210610 11:03:26.802"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.725" endtime="20210610 03:05:23.970"/>
+<status status="PASS" starttime="20210610 11:03:26.503" endtime="20210610 11:03:26.803"/>
 </kw>
 <kw name="E selecionar os frutos desejados e adiconar" library="BDDpt-br" sourcename="E ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -229,53 +234,53 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>selected</arg>
 <arg>true</arg>
 <doc>Verify that an attribute of an element matches the expected criteria.</doc>
-<msg timestamp="20210610 03:05:25.026" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="Plant list"]' attribute 'selected' is 'true' </msg>
-<status status="PASS" starttime="20210610 03:05:23.973" endtime="20210610 03:05:25.027"/>
+<msg timestamp="20210610 11:03:27.971" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="Plant list"]' attribute 'selected' is 'true' </msg>
+<status status="PASS" starttime="20210610 11:03:26.805" endtime="20210610 11:03:27.971"/>
 </kw>
 <kw name="Escolher fruto" library="helper">
 <arg>${l}</arg>
 <kw name="Wait Until Page Contains" library="AppiumLibrary">
 <arg>${target}</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:25.027" endtime="20210610 03:05:25.099"/>
+<status status="PASS" starttime="20210610 11:03:27.972" endtime="20210610 11:03:28.093"/>
 </kw>
 <kw name="Click Text" library="AppiumLibrary">
 <arg>${target}</arg>
 <doc>Click text identified by ``text``.</doc>
-<status status="PASS" starttime="20210610 03:05:25.100" endtime="20210610 03:05:25.179"/>
+<status status="PASS" starttime="20210610 11:03:28.093" endtime="20210610 11:03:28.218"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:25.027" endtime="20210610 03:05:25.179"/>
+<status status="PASS" starttime="20210610 11:03:27.971" endtime="20210610 11:03:28.219"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${IdAdd}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:25.179" endtime="20210610 03:05:25.373"/>
+<status status="PASS" starttime="20210610 11:03:28.219" endtime="20210610 11:03:29.112"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${IdAdd}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210610 03:05:25.376" level="INFO">Clicking element 'id=com.google.samples.apps.sunflower:id/fab'.</msg>
-<status status="PASS" starttime="20210610 03:05:25.373" endtime="20210610 03:05:26.014"/>
+<msg timestamp="20210610 11:03:29.115" level="INFO">Clicking element 'id=com.google.samples.apps.sunflower:id/fab'.</msg>
+<status status="PASS" starttime="20210610 11:03:29.112" endtime="20210610 11:03:29.203"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${PlantAdd}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:26.014" endtime="20210610 03:05:26.817"/>
+<status status="PASS" starttime="20210610 11:03:29.204" endtime="20210610 11:03:30.007"/>
 </kw>
 <kw name="Element Text Should Be" library="AppiumLibrary">
 <arg>${PlantAdd}</arg>
 <arg>Added plant to garden</arg>
 <doc>Verifies element identified by ``locator`` exactly contains text ``expected``.</doc>
-<msg timestamp="20210610 03:05:26.820" level="INFO">Verifying element 'id=com.google.samples.apps.sunflower:id/snackbar_text' contains exactly text 'Added plant to garden'.</msg>
-<status status="PASS" starttime="20210610 03:05:26.817" endtime="20210610 03:05:26.858"/>
+<msg timestamp="20210610 11:03:30.010" level="INFO">Verifying element 'id=com.google.samples.apps.sunflower:id/snackbar_text' contains exactly text 'Added plant to garden'.</msg>
+<status status="PASS" starttime="20210610 11:03:30.007" endtime="20210610 11:03:30.059"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${voltar}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210610 03:05:26.861" level="INFO">Clicking element 'xpath=//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageButton'.</msg>
-<status status="PASS" starttime="20210610 03:05:26.858" endtime="20210610 03:05:26.934"/>
+<msg timestamp="20210610 11:03:30.061" level="INFO">Clicking element 'xpath=//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageButton'.</msg>
+<status status="PASS" starttime="20210610 11:03:30.059" endtime="20210610 11:03:30.187"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.973" endtime="20210610 03:05:26.934"/>
+<status status="PASS" starttime="20210610 11:03:26.805" endtime="20210610 11:03:30.188"/>
 </iter>
 <iter>
 <var name="${l}">Avocado</var>
@@ -284,61 +289,61 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>selected</arg>
 <arg>true</arg>
 <doc>Verify that an attribute of an element matches the expected criteria.</doc>
-<msg timestamp="20210610 03:05:28.630" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="Plant list"]' attribute 'selected' is 'true' </msg>
-<status status="PASS" starttime="20210610 03:05:26.934" endtime="20210610 03:05:28.630"/>
+<msg timestamp="20210610 11:03:31.293" level="INFO">Element 'xpath=//android.widget.LinearLayout[@content-desc="Plant list"]' attribute 'selected' is 'true' </msg>
+<status status="PASS" starttime="20210610 11:03:30.189" endtime="20210610 11:03:31.293"/>
 </kw>
 <kw name="Escolher fruto" library="helper">
 <arg>${l}</arg>
 <kw name="Wait Until Page Contains" library="AppiumLibrary">
 <arg>${target}</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:28.632" endtime="20210610 03:05:28.710"/>
+<status status="PASS" starttime="20210610 11:03:31.294" endtime="20210610 11:03:31.405"/>
 </kw>
 <kw name="Click Text" library="AppiumLibrary">
 <arg>${target}</arg>
 <doc>Click text identified by ``text``.</doc>
-<status status="PASS" starttime="20210610 03:05:28.711" endtime="20210610 03:05:28.816"/>
+<status status="PASS" starttime="20210610 11:03:31.405" endtime="20210610 11:03:31.513"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:28.630" endtime="20210610 03:05:28.816"/>
+<status status="PASS" starttime="20210610 11:03:31.293" endtime="20210610 11:03:31.514"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${IdAdd}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:28.816" endtime="20210610 03:05:29.835"/>
+<status status="PASS" starttime="20210610 11:03:31.514" endtime="20210610 11:03:31.787"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${IdAdd}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210610 03:05:29.838" level="INFO">Clicking element 'id=com.google.samples.apps.sunflower:id/fab'.</msg>
-<status status="PASS" starttime="20210610 03:05:29.835" endtime="20210610 03:05:29.897"/>
+<msg timestamp="20210610 11:03:31.792" level="INFO">Clicking element 'id=com.google.samples.apps.sunflower:id/fab'.</msg>
+<status status="PASS" starttime="20210610 11:03:31.788" endtime="20210610 11:03:32.551"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${PlantAdd}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20210610 03:05:29.897" endtime="20210610 03:05:30.634"/>
+<status status="PASS" starttime="20210610 11:03:32.551" endtime="20210610 11:03:33.286"/>
 </kw>
 <kw name="Element Text Should Be" library="AppiumLibrary">
 <arg>${PlantAdd}</arg>
 <arg>Added plant to garden</arg>
 <doc>Verifies element identified by ``locator`` exactly contains text ``expected``.</doc>
-<msg timestamp="20210610 03:05:30.636" level="INFO">Verifying element 'id=com.google.samples.apps.sunflower:id/snackbar_text' contains exactly text 'Added plant to garden'.</msg>
-<status status="PASS" starttime="20210610 03:05:30.634" endtime="20210610 03:05:30.660"/>
+<msg timestamp="20210610 11:03:33.291" level="INFO">Verifying element 'id=com.google.samples.apps.sunflower:id/snackbar_text' contains exactly text 'Added plant to garden'.</msg>
+<status status="PASS" starttime="20210610 11:03:33.287" endtime="20210610 11:03:33.320"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${voltar}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210610 03:05:30.662" level="INFO">Clicking element 'xpath=//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageButton'.</msg>
-<status status="PASS" starttime="20210610 03:05:30.660" endtime="20210610 03:05:30.731"/>
+<msg timestamp="20210610 11:03:33.324" level="INFO">Clicking element 'xpath=//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageButton'.</msg>
+<status status="PASS" starttime="20210610 11:03:33.320" endtime="20210610 11:03:33.402"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:26.934" endtime="20210610 03:05:30.731"/>
+<status status="PASS" starttime="20210610 11:03:30.188" endtime="20210610 11:03:33.402"/>
 </iter>
-<status status="PASS" starttime="20210610 03:05:23.972" endtime="20210610 03:05:30.731"/>
+<status status="PASS" starttime="20210610 11:03:26.805" endtime="20210610 11:03:33.402"/>
 </for>
-<status status="PASS" starttime="20210610 03:05:23.972" endtime="20210610 03:05:30.731"/>
+<status status="PASS" starttime="20210610 11:03:26.805" endtime="20210610 11:03:33.403"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.972" endtime="20210610 03:05:30.732"/>
+<status status="PASS" starttime="20210610 11:03:26.804" endtime="20210610 11:03:33.403"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:23.971" endtime="20210610 03:05:30.732"/>
+<status status="PASS" starttime="20210610 11:03:26.804" endtime="20210610 11:03:33.403"/>
 </kw>
 <kw name="Então sistema apresentará os frutos em MY GARDEN" library="BDDpt-br" sourcename="Então ${keyword}">
 <kw name="Run Keyword" library="BuiltIn">
@@ -348,37 +353,42 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${ElementGarden}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210610 03:05:30.736" level="INFO">Clicking element 'xpath=//android.widget.LinearLayout[@content-desc="My garden"]'.</msg>
-<status status="PASS" starttime="20210610 03:05:30.734" endtime="20210610 03:05:31.537"/>
+<msg timestamp="20210610 11:03:33.412" level="INFO">Clicking element 'xpath=//android.widget.LinearLayout[@content-desc="My garden"]'.</msg>
+<status status="PASS" starttime="20210610 11:03:33.408" endtime="20210610 11:03:34.300"/>
 </kw>
 <kw name="Page Should Contain Text" library="AppiumLibrary">
 <arg>${plantList[0]}</arg>
 <doc>Verifies that current page contains `text`.</doc>
-<msg timestamp="20210610 03:05:31.671" level="INFO">Current page contains text 'Beet'.</msg>
-<status status="PASS" starttime="20210610 03:05:31.538" endtime="20210610 03:05:31.671"/>
+<msg timestamp="20210610 11:03:34.596" level="INFO">Current page contains text 'Beet'.</msg>
+<status status="PASS" starttime="20210610 11:03:34.300" endtime="20210610 11:03:34.596"/>
 </kw>
 <kw name="Page Should Contain Text" library="AppiumLibrary">
 <arg>${plantList[1]}</arg>
 <doc>Verifies that current page contains `text`.</doc>
-<msg timestamp="20210610 03:05:32.437" level="INFO">Current page contains text 'Avocado'.</msg>
-<status status="PASS" starttime="20210610 03:05:31.671" endtime="20210610 03:05:32.437"/>
+<msg timestamp="20210610 11:03:35.307" level="INFO">Current page contains text 'Avocado'.</msg>
+<status status="PASS" starttime="20210610 11:03:34.597" endtime="20210610 11:03:35.308"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:30.733" endtime="20210610 03:05:32.437"/>
+<status status="PASS" starttime="20210610 11:03:33.407" endtime="20210610 11:03:35.308"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:30.733" endtime="20210610 03:05:32.437"/>
+<status status="PASS" starttime="20210610 11:03:33.405" endtime="20210610 11:03:35.309"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:30.732" endtime="20210610 03:05:32.438"/>
+<status status="PASS" starttime="20210610 11:03:33.404" endtime="20210610 11:03:35.309"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20210610 11:03:37.535" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-2.png"&gt;&lt;img src="appium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210610 11:03:35.311" endtime="20210610 11:03:37.535"/>
+</kw>
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" starttime="20210610 03:05:32.439" endtime="20210610 03:05:32.996"/>
+<status status="PASS" starttime="20210610 11:03:37.536" endtime="20210610 11:03:38.158"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:32.438" endtime="20210610 03:05:32.997"/>
+<status status="PASS" starttime="20210610 11:03:35.311" endtime="20210610 11:03:38.159"/>
 </kw>
-<status status="PASS" starttime="20210610 03:05:13.510" endtime="20210610 03:05:32.997"/>
+<status status="PASS" starttime="20210610 11:03:12.732" endtime="20210610 11:03:38.159"/>
 </test>
-<status status="PASS" starttime="20210610 03:04:59.544" endtime="20210610 03:05:32.999"/>
+<status status="PASS" starttime="20210610 11:02:54.751" endtime="20210610 11:03:38.162"/>
 </suite>
 <statistics>
 <total>
