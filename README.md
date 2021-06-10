@@ -29,15 +29,13 @@ Framework: RobotFramework
 
 #### Estruturação do Projeto:
 ```
-├── /App                                          # Projeto                                                                                          
-    ├── /resources                                #                                                                                                         
-        ├── base.robot                            # Estrutura com a base para os testes, os métodos criados aqui, serão executados por todos os testes.
-        ├── BDDpt-br.robot                        # Estrutura do BDD
-        ├── helper.robot                          # Estrutura com métodos que poderão ser utilizados pelos testes.
-    ├── /tests                                    # Pacote de testes
-        ├── /.logs                                # Log's das execuções/ Relatório de teste
-        ├── garden.robot                          # Testes a serem executados
-    ├── sunflower.apk                             # Aplicação a ser homologada
+-> /App                                           # Projeto                                                                                          
+    ─ /resources/base.robot                       # Estrutura com a base para os testes, os métodos criados aqui, serão executados por todos os testes.                           
+    ─ /resources/BDDpt-br.robot                   # Estrutura do BDD
+    ─ /resources/helper.robot                     # Estrutura com métodos que poderão ser utilizados pelos testes.
+    ─ /tests/.logs                                # Log's das execuções/ Relatório de teste
+    ─ /tests/garden.robot                         # Testes a serem executados
+    ─ sunflower.apk                               # Aplicação a ser homologada
         
 ```
 
