@@ -8,7 +8,6 @@
 ## Documentação útil
 
 1. [Automação Mobile](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/AutomationProject)
-  1.1. [Relatório Mobile](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/AutomationProject)
 2. [Planejamento de Casos de Testes](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/RegresAPI)
 
 
@@ -26,6 +25,7 @@ Formato: Gherkin
 Ferramenta: Appium
 Framework: RobotFramework
 ```
+
 
 #### Estruturação do Projeto:
 ```
@@ -48,6 +48,12 @@ Executar pela linha de comando:
 cd C:\app\test
 robot -d .logs garden.robot
 ```
+
+
+#### Relatório de execução
+
+1. [Relatório](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/AutomationProject)
+
 
 #### Execuções das Suites:
 
