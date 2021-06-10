@@ -52,7 +52,7 @@ robot -d .logs garden.robot
 
 #### Relatório de execução
 
-1. [Relatório](https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/blob/master/app/test/.logs/log.html)
+1. [Relatório](http://htmlpreview.github.io/?https://github.com/LuisFelipeSeabra/DesafioFrontEndRobot/blob/master/app/test/.logs/log.html)
 
 ![image](https://user-images.githubusercontent.com/49051123/121533852-0db43e80-c9d7-11eb-9c5a-9a697d5cefdc.png)
 
