@@ -1,7 +1,7 @@
 # Bem-vindo ao desafio
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Logo-Stone.svg/1200px-Logo-Stone.svg.png" width="300px"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjaQ4n0pyBnJvEC68ZvdhW-RTXaSTlwLJZnw&usqp=CAU" width="300px"/>
 </div>
 
 
@@ -71,7 +71,7 @@ robot -d .logs garden.robot
 
 Tecnologias utilizadas no projeto:
   * Python 3.8.8
-  * Appium
+  * Appium 1.21.0
   * Android studio 4.1.3
   * Virtual Device Name: Pixel_3a_API_30_x86 Target: Android 11.0(Google APIs)
   * Visual Studio Code
