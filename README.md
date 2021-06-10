@@ -8,19 +8,23 @@
 ## Documentação útil
 
 1. [Automação Mobile](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/AutomationProject)
+  1.1. [Relatório Mobile](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/AutomationProject)
 2. [Planejamento de Casos de Testes](https://github.com/LuisFelipeSeabra/prova_renner/tree/master/RegresAPI)
 
 
 ## Planejamento de casos de teste
-Para automação Mobile utilizou-se: o formato Gherkin para a criação dos cenários, Appium como ferramenta de automatização e RobotFramework como framework de desenvolvimento.
+Para o projeto de planejamento de casos de teste, criou-se o fluxo de abertura de conta da fintech Start. Foram criados 17 cenários com o objetivo de apresentar uma boa cobertura de testes do fluxo de criação de conta corrente.
+```
+Formato: Gherkin
 ```
 
-```
 
 ## Projeto de Automação mobile
 Para automação Mobile utilizou-se: o formato Gherkin para a criação dos cenários, Appium como ferramenta de automatização e RobotFramework como framework de desenvolvimento.
 ```
-
+Formato: Gherkin
+Ferramenta: Appium
+Framework: RobotFramework
 ```
 
 #### Estruturação do Projeto:
