@@ -29,7 +29,7 @@ Framework: RobotFramework
 
 #### Estruturação do Projeto:
 ```
-+ /App                                           # Projeto                                                                                          
++ /App                                            # Projeto                                                                                          
     ─ /resources/base.robot                       # Estrutura com a base para os testes, os métodos criados aqui, serão executados por todos os testes.                           
     ─ /resources/BDDpt-br.robot                   # Estrutura do BDD
     ─ /resources/helper.robot                     # Estrutura com métodos que poderão ser utilizados pelos testes.
