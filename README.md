@@ -1,7 +1,7 @@
 # Bem-vindo ao desafio
 
 <div align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjaQ4n0pyBnJvEC68ZvdhW-RTXaSTlwLJZnw&usqp=CAU" width="300px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Robot-framework-logo.png" width="300px"/>
 </div>
 
 
